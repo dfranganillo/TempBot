@@ -1,4 +1,4 @@
-TempBOT
+TempBot
 =======
 
 About
@@ -10,7 +10,7 @@ Configuration
 
 1 - Install Perl and Net::Twitter
 
-2 - Modify consumer_* and secret_* variables to your own ones
+2 - Modify consumer\_\* and secret\_\* variables to your own ones
 
 3 - Get the temperature from "somewhere" and store it in $temp
 
