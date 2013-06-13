@@ -16,7 +16,7 @@ my $place_id = "";
 my $get_image = "mplayer tv:// -tv driver=v4l2:device=/dev/video0:width=1600:height=1200:outfmt=rgb24 -frames 3 -vo jpeg";
 
 my $nt = Net::Twitter->new(
-    traits   => [qw/OAuth API::REST/],
+    traits   => [qw/OAuth API::RESTv1_1/],
     consumer_key        => $consumer_key,
     consumer_secret     => $consumer_secret,
     access_token        => $access_token,

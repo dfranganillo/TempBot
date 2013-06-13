@@ -50,7 +50,7 @@ my @VeryCold = (
 );
 
 my $nt = Net::Twitter->new(
-    traits   => [qw/OAuth API::REST/],
+    traits   => [qw/OAuth API::RESTv1_1/],
     consumer_key        => $consumer_key,
     consumer_secret     => $consumer_secret,
     access_token        => $access_token,
