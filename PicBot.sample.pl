@@ -21,6 +21,7 @@ my $nt = Net::Twitter->new(
     consumer_secret     => $consumer_secret,
     access_token        => $access_token,
     access_token_secret => $access_secret,
+    ssl                 => 1
     );
 
 system($get_image);
